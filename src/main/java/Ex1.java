@@ -1,11 +1,17 @@
 public class Ex1 {
     public static void main(String[] args) {
+        int s= 0;
+        int n = 10;
+        for (int i = 0; i <=n ; i++) {
+            s+=i;
+        }
+        System.out.println("s = "+s);
 
     }
 
 }
 /*
-//元的面積
+元的面積
 double r = 1.26;
 System.out.println(Math.Pi*Math.pow(r, r));
 
@@ -88,7 +94,7 @@ System.out.println("Max = "+max);
 			result = "fail";
 		}
 		System.out.println("result = "+result);
-		// TODO Auto-generated method stub
+
 */
 
 
